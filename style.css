@@ -1,0 +1,49 @@
+body {
+  /* background: url("") position position/size repeat attachment origin clip color */
+  background: url(../images/background.jpg) center top / cover no-repeat fixed;
+}
+
+.until {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10rem;
+
+  max-width: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  padding: 1em;
+  background: gray;
+  opacity: 0.7;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  font-family: sans-serif;
+}
+
+.until__component {
+  text-align: center;
+  background: white;
+  border-radius: 5px;
+}
+
+.until__numeric {
+  color: #333;
+  padding: 0.5em 0;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.until__unit {
+  font-size: 1.2em;
+  padding-bottom: 1em;
+  font-weight: bold;
+  color: #94001b;
+}
+
+.until__event {
+  font-size: 2em;
+  grid-column: span 3;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+}
